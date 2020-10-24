@@ -1,0 +1,18 @@
+Features	Terpanes	Diamantanes	MA-steranes	TA-steranes	Steranes
+PC1	       C25/H35S	            9/2	            1/12	  3b/7	          16/1
+PC2	       H35S/H32R	    5/4	            4/11	  3b/1	          14/18
+PC3	       C25/C27b	            1/4	            5/4	          8/6	          8/7
+PC4	       H35S/H34R	    5/3	            12/6	  6/4	          16/13
+PC5	       C26/C28a	            6/7	            11/8+9+10	  6/7	          17/16
+PC6	       H32S/H32R		            6/7	          3b/3a	          8/10
+PC7	       H31S/H31R		            8+9+10/12	  2/1	          11/8
+PC8	       H32R/H33S				                          8/11
+PC9	       Ts/Tm				                                  15/13
+PC10	       H33R/H34S				                          13/14
+PC11	       H31R/H32S				
+PC12	       Tm/C30				
+PC13	       C23/C25				
+
+
+five biomarkers here and each one has different features 
+The features will be the input on the front webpage 
