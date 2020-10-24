@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app.css">
+
+
+</head>
+
+<body style="background: #000;">
+ <div class="login">
+	<h1>Predict Oil Type</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('static')}}" method="post" >
+    	<input type="text" name="1/12" placeholder="1/12" required="required" />
+        <input type="text" name="4/11" placeholder="4/11" required="required" />
+        <input type="text" name="5/4" placeholder="5/4" required="required" />
+        <input type="text" name="12/6" placeholder="12/6" required="required" />
+        <input type="text" name="11/8+9+10" placeholder="11/8+9+10" required="required" />
+        <input type="text" name="6/7" placeholder="6/7" required="required" />
+		<input type="text" name="8+9+10/12" placeholder="8+9+10/12" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
