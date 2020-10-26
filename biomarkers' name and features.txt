@@ -16,3 +16,15 @@ PC13	       C23/C25
 
 five biomarkers here and each one has different features 
 The features will be the input on the front webpage 
+
+
+
+
+
+'Questions' from Jian, 2020-10-26
+1. Are the five biomarkers Terpanes Diamantanes	MA-steranes	TA-steranes and	Steranes?
+2. Are the items under each biomarker the features? such as C25/H35S, H35/H32R.
+3. What are the PC1 ~ PC13 then?
+4. Is 9/2 a name of feature or a fraction (9/2 = 4.5)?
+5. What does a user need to input on webpage? numbers or just one or some features selected from dropdown?
+6. In the index.html, you give some the features of MA-steranes in input boxes. Should all of them be transimitted to model? or just one of the feature at a time?
